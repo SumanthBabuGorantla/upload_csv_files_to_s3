@@ -1,0 +1,11 @@
+sc
+
+sc._jsc.hadoopConfiguration().set('fs.s3a.access.key','your access key')
+
+
+sc._jsc.hadoopConfiguration().set('fs.s3a.secret.key','your secret key')
+
+
+df=spark.read.csv("file link in s3 bucket",header="True",inferSchema="True")
+
+df.show()
