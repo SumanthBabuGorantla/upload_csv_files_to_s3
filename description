@@ -1,2 +1,4 @@
-In the above code we will upload a csv file from local to s3 by providing the credentials of the s3 bucket automatically by running the code once.
+In the upload_files_to_s3 code we will upload  csv files from local to s3 by providing the credentials of the s3 bucket automatically by running the code once.
 If the new files are added to the location and run the code, it will add the files in a incremental load format.
+
+in extract_files_from _s3 code we will extract csv files from the s3 bucket.
